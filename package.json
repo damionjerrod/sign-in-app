@@ -1,0 +1,30 @@
+{
+  "name": "sign-in-app",
+  "version": "1.0.0",
+  "description": "My attempt at building our final group project from CBC7.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damionjerrod/sign-in-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damionjerrod/sign-in-app/issues"
+  },
+  "homepage": "https://github.com/damionjerrod/sign-in-app#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
